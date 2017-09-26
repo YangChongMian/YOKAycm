@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div id="yoka">
+    <p>YOKA</p>
+</div>
+
+<div id="nav">
+    <div class="nav_ul">
+        <ul class="left">
+            <li class="shouye"><a href="#">首页</a></li>
+            <li><a href="shishang.html">时尚</a></li>
+            <li><a href="meirong.html">美容</a></li>
+            <li><a href="shehua.html">奢华</a></li>
+            <li><a href="mingxing.html">明星</a></li>
+            <li><a href="lehuo.html">乐活</a></li>
+            <li><a href="nanshi.html">男士</a></li>
+            <li><a href="shipin.html">视频</a></li>
+            <li><a href="zhuanti.html">专题</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="register.html">注册</a></li>
+            <li class="login"><a href="#">登录</a></li>
+            <li>
+                <img src="images/q01.jpg"/>
+                <div class="img_hidden">
+                    <img src="images/WeiXin.jpg"/>
+                </div>
+            </li>
+            <li><img src="images/q03.jpg"/></li>
+            <li>
+                <img src="images/q02.jpg"/>
+                <ul class="sousuotiao">
+                    <li><input type="text"/></li>
+                    <li><img src="images/q02.jpg"/></li>
+
+                </ul>
+            </li>
+        </ul>
+        <div></div>
+    </div>
+</div>
+
+
+<!--------------登录界面--------------->
+
+<div id="login">
+    <div></div>
+    <ul>
+        <li class="li1"><h1>&nbsp;&nbsp;登录YOKA<span class="close">x&nbsp;&nbsp;</span></h1></li>
+        <li></li>
+        <li>登录名 <input id="input_name" type="text" placeholder="邮箱/用户名/手机号"/></li>
+        <li>&nbsp;&nbsp;&nbsp;密码 <input id="input_upwd" type="text" placeholder="请输入登录密码"/></li>
+        <li><input type="checkbox"/>下次自动登录 <span><a href="">忘记密码</a></span></li>
+        <li><button id="login_button">登录</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;还没有账号?免费<a href="js/number/register.html">注册</a>一个</li>
+        <li><img src="images/shouye/QQ.jpg"/>&nbsp;<a href="">QQ登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/shouye/weibo.jpg"/>&nbsp;<a
+          href="">新浪微博登录</a></li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+<div id="img_lunbo">
+
+    <div class="left">
+        <span></span>
+    </div>
+
+    <div class="middle">
+        <ul class="lb">
+        </ul>
+
+        <ul class="dingwei">
+        </ul>
+
+    </div>
+
+    <div class="right">
+        <span></span>
+    </div>
+</div>
+<ul id="popular">
+    <li class="li_1">
+        <div class="div1">
+            <img src="images/meirong/shishang_c03.jpg"/>
+            <ul class="div1_ul">
+                <li><a href="#">飘柔卸妆级洗发水</a></li>
+                <li><a href="#">雅漾活泉能量水上市</a></li>
+                <li><a href="#">全新意大利白泥系列</a></li>
+                <li><a href="#">解密女神</a></li>
+            </ul>
+        </div>
+        <div class="div2">
+            <ul class="div2_ul">
+                <li class="ul_1">POPUAR</li>
+                <li>这个微胖的矮妹子有点牛 波西米亚风他都能穿对</li>
+                <li>女青年才不再朋友圈过六一!我们要穿的美艳如少女</li>
+                <li>扑面而来的清凉!3万多元的手工雕刻树叶珠宝</li>
+                <li>跟风带货女王米兰达可儿 这一次带火了"私密庭院婚礼"</li>
+                <li>戛纳红毯盘点 最难忘50岁少女、彩虹一姐和迪士尼公主</li>
+                <li>母亲大人 这些车型可合您意?</li>
+                <li><div>换一组看看</div></li>
+            </ul>
+        </div>
+    </li>
+    <li class="li_2" id="changtu">
+        <ul class="changtu1">
+            <li><a href=""><img src="images/shouye/shishang_c04.jpg"/></a></li>
+            <li><a href=""><img src="images/shouye/shishang_c06.jpg"/></a></li>
+        </ul>
+        <ul class="santu">
+            <li><a href=""><img src="images/meirong/shishang_c05.jpg"/></a></li>
+            <li><a href=""><img src="images/meirong/shishang_c01.jpg"/></a></li>
+            <li><a href=""><img src="images/meirong/shishang_c01.jpg"/></a></li>
+        </ul>
+        <!--<div class="div1_li2">-->
+            <!--<div class="div1_right">-->
+                <!--<dl><a href="#"><img src="images/shouye/shishang_c04.jpg"/></a></dl>-->
+                <!--<a href="#">别拦我钟小姐出啥我都买</a>-->
+            <!--</div>-->
+            <!--<div class="div1_2">-->
+                <!--<dl><a href="#"><img src="images/shouye/shishang_c02.jpg"/></a></dl>-->
+                <!--<a href="#">早起泡个澡 陈乔恩就这样甩掉了水肿脸</a>-->
+            <!--</div>-->
+            <!--<div class="div1_3">-->
+                <!--<dl><a href="#"><img src="images/shouye/shishang_c06.jpg"/></a></dl>-->
+                <!--<a href="#">新腔记VOL01徐璐音乐节吸睛术</a>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;<img src="images/shishang_c06.jpg"/>&ndash;&gt;-->
+        <!--</div>-->
+        <!--<div class="div2_li2">-->
+            <!--<div class="div2_right">-->
+                <!--<dl><a href="#"><img src="images/meirong/shishang_c01.jpg"/></a></dl>-->
+                <!--<div>樊胜美妈妈比容嬷嬷还招人恨 可化完妆竟然这么美!</div>-->
+            <!--</div>-->
+            <!--<div class="div2_img">-->
+                <!--<dl><a href="#"><img src="images/meirong/shishang_c05.jpg"/></a></dl>-->
+                <!--<div>穿T恤的男生满大街都是 你可以靠这件单品的搭配取胜</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</li>-->
+</ul>
+
+<div id="adj">
+    <div class="right_adj">
+        <div>
+            <img src="images/shouye/C04.jpg"/>
+        </div>
+
+        <div class="active1">
+            <img src="images/shouye/C05.jpg"/>
+        </div>
+        <ul class="ul-2" id="ul-2">
+            <li class="active3"></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="adj_margin">
+        <div class="active20">
+            <img src="images/shouye/C02.jpg"/>
+        </div>
+
+        <div class="active2">
+            <img src="images/shouye/C03.jpg"/>
+        </div>
+
+
+        <ul>
+            <li class="active4"></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div id="only">
+    <div class="only_z">
+        <div class="only_r">
+            <div class="only_r_1"><img src="images/e03_03.jpg"/></div>
+            <div><img src="images/meirong/e02.jpg"/></div>
+            <div class="bgp"><a href="#">美容美妆 4月抢新看</a></div>
+        </div>
+
+        <div class="only_l">
+            <div class="only_l_z">
+
+                <ul>
+                    <li><a href="">美月鲜货</a></li>
+                    <li><a href="">DEAUTY星头条</a></li>
+                    <li><a href="">美 i help u</a></li>
+                    <li><a href="">美丽缪斯</a></li>
+                    <li><a href="">新品悦享会</a></li>
+                </ul>
+                <b>独家策划</b>
+            </div>
+            <div id="img_1">
+
+
+
+                <ul>
+                    <li><a href="#"><img src="images/meirong/R07.jpg"/></a></li>
+                    <li><a href="#"><img src="images/meirong/R02.jpg"/></a></li>
+                    <li><a href="#"><img src="images/meirong/R03.jpg"/></a></li>
+                    <li><a href="#"><img src="images/meirong/R05.jpg"/></a></li>
+                    <li><a href="#"><img src="images/meirong/R04.jpg"/></a></li>
+                    <li><a href="#"><img src="images/meirong/R06.jpg"/></a></li>
+                    <li><a href="#"><img src="images/meirong/R07.jpg"/></a></li>
+                </ul>
+                <div class="Dleft">
+                    <div class="d01"></div>
+                    <img class="d03" src="images/meirong/left.png"/>
+                </div>
+                <div class="Dright"><!--右边按钮-->
+                    <div class="d02"></div>
+                    <img class="d04" src="images/meirong/right_03.png"/>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="adj_2">
+    <img src="images/shouye/A02.jpg"/>
+</div>
+
+
+
+<ul id="tuwenzuhe">
+    <li class="biaoti">
+        <div>
+            <img src="images/shouye/A03_03.jpg"/>
+            <b>时装&nbsp;FASHION</b>
+            <img src="images/shouye/A03_03.jpg"/>
+        </div>
+        <ul>
+            <li><a href="#">秀场</a></li>
+            <li><a href="#">搭配</a></li>
+            <li><a href="#">潮流</a></li>
+            <li><a href="#">新品</a></li>
+            <li><a href="#">街拍</a></li>
+            <li><a href="#">星衣品</a></li>
+        </ul>
+
+
+    </li>
+
+
+
+    <li class="middle">
+        <div class="right">
+            <img src="images/shouye/a003.jpg"/>
+            <div class="touming_1">
+                <a href="#">
+                    小s比例不科学&nbsp;158的身高有着185的腿
+                </a>
+            </div>
+        </div>
+        <div class="left">
+            <img src="images/shouye/a002.jpg"/>
+            <div class="touming_2">
+                <a href="#"><b>这9款夏日单品缺一不可!</b></a>
+            </div>
+            <!--<ul>-->
+                <!--<li></li>-->
+                <!--<li></li>-->
+            <!--</ul>-->
+        </div>
+        <!--<div class="left1">-->
+            <!--<img src="images/shouye/a002.jpg"/>-->
+            <!--<div class="touming_2">-->
+                <!--<a href="#"><b>这9款夏日单品缺一不可!</b></a>-->
+            <!--</div>-->
+            <!--<ul>-->
+                <!--<li></li>-->
+                <!--<li></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    </li>
+
+
+
+    <li class="bottom">
+        <ul class="d01">
+            <li class="left_3">
+                <div><img src="images/shouye/A008.jpg"/></div>
+                <div><img src="images/shouye/a004_03.jpg"/></div>
+            </li>
+            <li class="left_4">
+                <ul class="d04">
+                    <li>
+                        <dl><a href="#"><img src="images/shouye/A004.jpg"/></a></dl>
+                        <div><a href=""><b>儿童节最正确的晒娃方式!这位辣妈博主的亲</b></a></div>
+                    </li>
+                    <li>
+                        <dl><a href="#"><img src="images/shouye/A005.jpg"/></a></dl>
+                        <div><a href=""><b>敲黑板!学会这几招轻松掌握法式休闲度假风</b></a></div>
+                    </li>
+                    <li>
+                        <dl><a href="#"><img src="images/shouye/A006.jpg"/></a></dl>
+                        <div><a href=""><b>逆天的米开理玩起文艺复兴Gucci 18早春再</b></a></div>
+                    </li>
+                    <li>
+                        <dl><a href="#"><img src="images/shouye/A009_03.jpg"/></a></dl>
+                        <div><a href=""><b>嫌"雷神"肌肉恶心??这波恩爱秀的我给负分</b></a></div>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+
+</ul>
+
+<ul id="tuwenzuhe1">
+    <li class="biaoti">
+        <div>
+            <img src="images/shouye/A03_03.jpg"/>
+            <b>美容&nbsp;BEAUTY</b>
+            <img src="images/shouye/A03_03.jpg"/>
+        </div>
+        <ul>
+            <li><a href="#">护肤前沿</a></li>
+            <li><a href="#">潮流彩妆</a></li>
+            <li><a href="#">美发美体</a></li>
+            <li><a href="#">型男志</a></li>
+            <li><a href="#">独家策划</a></li>
+            <li><a href="#">妆品库</a></li>
+        </ul>
+
+
+    </li>
+
+
+
+    <li class="middle">
+        <div class="right">
+            <img src="images/shouye/B01.jpg"/>
+        </div>
+        <div class="left">
+            <img src="images/shouye/B06.jpg"/>
+            <div class="touming_2">
+                <a href="#"><b>范冰冰玩假发简直6到飞起</b></a>
+            </div>
+            <!--<ul>-->
+                <!--<li></li>-->
+                <!--<li></li>-->
+            <!--</ul>-->
+        </div>
+    </li>
+
+
+
+    <li class="bottom">
+        <ul>
+
+
+
+            <li class="bottom_li2">
+                <div class="li2_top">
+                    <div class="top_1">达人心得</div>
+                    <div class="top_2">
+                        <ul>
+                            <li>
+                                <div class="float_right">
+                                    <h4>施华蔻新品 金质滋养精华</h4>
+                                    <h6>雅雅雅雅正</h6>
+                                </div>
+                                <div><img src="images/shouye/B07_03.jpg"/></div>
+                            </li>
+                            <li>
+                                <div class="float_right">
+                                    <h4>娇兰帝皇蜂姿黄金复原蜜</h4>
+                                    <h6>边本佳利</h6>
+                                </div>
+                                <div><img src="images/shouye/B08_03.jpg"/></div>
+                            </li>
+                            <li>
+                                <div class="float_right">
+                                    <h4>蓝贾斯汀防晒乳液</h4>
+                                    <h6>小琦喵</h6>
+                                </div>
+                                <div><img src="images/shouye/B09_03.jpg"/></div>
+                            </li>
+                            <div class="li2_bottom">
+                                <img src="images/shouye/C01_03.jpg"/>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+            </li>
+            <li>
+                <ul>
+                    <li class="en1">
+                        <dl><a href="#"><img src="images/shouye/B02.jpg"/></a></dl>
+                        <div><a href=""><b>减龄十岁!让我们一起做个冰淇淋图案的美甲吧</b></a></div>
+                    </li>
+                    <li class="en2">
+                        <dl><a href="#"><img src="images/shouye/B03.jpg"/></a></dl>
+                        <div><a href=""><b>萌萌哒! 给闺女梳个漂亮的小辫过六一</b></a></div>
+                    </li>
+                    <li class="en3">
+                        <dl><a href="#"><img src="images/shouye/B04.jpg"/></a></dl>
+                        <div><a href=""><b>公开美妆达人的高阶玩法!发色眼妆连连看</b></a></div>
+                    </li>
+                    <li class="en4">
+                        <dl><a href="#"><img src="images/shouye/B05.jpg"/></a></dl>
+                        <div><a href=""><b>夏季美甲大趋势 这些都是最受欢迎的款式</b></a></div>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+
+
+</ul>
+
+
+
+<ul id="tuwenzuhe2">
+
+
+    <li class="biaoti">
+            <div>
+              <img src="images/shouye/A03_03.jpg"/>
+              <b>明星&nbsp;STAR</b>
+              <img src="images/shouye/A03_03.jpg"/>
+            </div>
+        <ul>
+            <li><a href="#">星动态</a></li>
+            <li><a href="#">红毯</a></li>
+            <li><a href="#">街拍</a></li>
+            <li><a href="#">话题</a></li>
+            <li><a href="#">星宝贝</a></li>
+            <li><a href="#">大片</a></li>
+        </ul>
+
+    </li>
+
+
+    <li class="center">
+        <div class="left">
+            <img src="images/shouye/T06.jpg"/>
+            <div class="zhezhao"><a href="#">《欢乐颂》不止有五美还有三帅 不同型格男士搭配参考</a></div>
+            <ul>
+                <li>
+                    <img src="images/shouye/T01_03.jpg"/>
+                    <b>top榜单</b>
+                    <img src="images/shouye/T01_03.jpg"/>
+                </li>
+                <li><a href="#">1&nbsp;宋茜美颜暴击，现身机场扎丸子头少女感爆棚</a></li>
+                <li><a href="#">2&nbsp;朱茵戛纳首战高贵优雅，但让人忽视她的前凸后翘</a></li>
+                <li><a href="#">3&nbsp;杨洋现身戛纳电影节，黑色西服套装帅气逼人</a></li>
+            </ul>
+        </div>
+
+
+         <ul class="right">
+                <li class="right1">
+                    <dl><a href="#"><img src="images/shouye/T02.jpg"/></a></dl>
+                    <div class="zhezhao1"><a href="#"><b>可慵懒可性感......TA拥有女人梦寐以求的人设</b></a></div>
+                    <!--<ul>-->
+                        <!--<li></li>-->
+                        <!--<li></li>-->
+                    <!--</ul>-->
+                </li>
+         </ul>
+         <div class="right2">
+              <div class="right">
+                  <dl><a href="#"><img src="images/shouye/T05.jpg"/></a></dl>
+                  <div><b>别来羡慕倪妮街拍有多美，因为你和她差了千万个GUCCI</b></div>
+              </div>
+              <div class="left">
+                  <dl><a href="#"><img src="images/shouye/T04.jpg"/></a></dl>
+                  <div><b>让你看看什么叫字如其人，黄子韬豪放字迹遭工作人员怼</b></div>
+              </div>
+         </div>
+
+    </li>
+
+</ul>
+
+
+<ul id="tuwenzuhe3">
+
+    <li class="biaoti">
+        <div>
+            <img src="images/shouye/A03_03.jpg"/>
+            <b>奢华&nbsp;LUXURY</b>
+            <img src="images/shouye/A03_03.jpg"/>
+        </div>
+        <ul>
+            <li><a href="#">珠宝</a></li>
+            <li><a href="#">腕表</a></li>
+            <li><a href="#">高端谈资</a></li>
+            <li><a href="#">王室风云</a></li>
+            <li><a href="#">婚嫁</a></li>
+            <li><a href="#">设计先锋</a></li>
+        </ul>
+    </li>
+
+
+
+
+
+
+    <li class="middle">
+        <div class="right">
+            <img src="images/shouye/X01.jpg"/>
+            <div class="touming_1">
+                <a href="#">
+                    谁说泳装模特胸大无脑?身材品味样样都行
+                </a>
+            </div>
+        </div>
+        <div class="left">
+            <img src="images/shouye/X03.jpg"/>
+            <div class="touming_2">
+                <a href="#"><b>瘦了15斤的范冰冰秀水蛇腰和2米长大腿</b></a>
+            </div>
+            <!--<ul>-->
+                <!--<li></li>-->
+                <!--<li></li>-->
+            <!--</ul>-->
+        </div>
+    </li>
+
+
+    <li class="bottom">
+        <ul>
+            <li>
+                <dl><a href="#"><img src="images/shouye/X02.jpg"/></a></dl>
+                <div><a href="#"><b>趁着儿童节卖萌装嫩 选好单品才能减龄又不做作</b></a></div>
+            </li>
+            <li>
+                <dl><a href="#"><img src="images/shouye/X04.jpg"/></a></dl>
+                <div><a href="#"><b>戛纳为儿童节助兴?原来女星都悄悄cosplay迪士尼公主</b></a></div>
+            </li>
+            <li>
+                <dl><a href="#"><img src="images/shouye/X05.jpg"/></a></dl>
+                <div><a href="#"><b>米兰达可儿"自家后院"再婚 身家300亿的两人太低调</b></a></div>
+            </li>
+        </ul>
+
+    </li>
+</ul>
+
+
+<ul id="adj2">
+    <li><img src="images/shouye/X07.jpg"/></li>
+    <li><img src="images/shouye/X08.jpg"/></li>
+    <li><img src="images/shouye/X09.jpg"/></li>
+</ul>
+
+
+
+
+<ul id="tuwenzuhe4">
+
+    <li class="biaoti">
+        <div>
+            <img src="images/shouye/A03_03.jpg"/>
+            <b>乐活&nbsp;LIFESTYLE</b>
+            <img src="images/shouye/A03_03.jpg"/>
+        </div>
+        <ul>
+            <li><a href="#">目的地</a></li>
+            <li><a href="#">晒好物</a></li>
+            <li><a href="#">家居馆</a></li>
+            <li><a href="#">in话题</a></li>
+
+        </ul>
+    </li>
+
+
+
+
+
+
+    <li class="middle">
+        <div class="right">
+            <dl><a href="#"><img src="images/shouye/X01.jpg"/></a></dl>
+            <div class="touming_1">
+                <a href="#">
+                    谁说泳装模特胸大无脑?身材品味样样都行
+                </a>
+            </div>
+        </div>
+        <div class="left">
+            <dl><a href="#"><img src="images/shouye/X11.jpg"/></a></dl>
+            <div class="touming_2">
+                <a href="#"><b>出门去撒欢!手把手教你如何来场户外野餐</b></a>
+            </div>
+            <!--<ul>-->
+                <!--<li></li>-->
+                <!--<li></li>-->
+            <!--</ul>-->
+        </div>
+    </li>
+
+
+    <li class="bottom">
+        <ul>
+            <li>
+                <dl><a href="#"><img src="images/shouye/X10.jpg"/></a></dl>
+                <div><a href="#"><b>本周12星座爆分手高潮 这回终于轮到单身狗偷笑了!</b></a></div>
+            </li>
+            <li>
+                <dl><a href="#"><img src="images/shouye/X12.jpg"/></a></dl>
+                <div><a href="#"><b>10个客厅家居设计告诉你拥有一把舒适的椅子是多么重要!</b></a></div>
+            </li>
+            <li>
+                <dl><a href="#"><img src="images/shouye/X13.jpg"/></a></dl>
+                <div><a href="#"><b>手机没了耳机插孔 这4款无线耳机出现的正是时候</b></a></div>
+            </li>
+        </ul>
+
+    </li>
+</ul>
+
+
+
+
+
+
+<div id="bottom_ul">
+
+    <div><a href="#">闫妮</a></div>
+    <div><a href="#">刘涛</a></div>
+    <div><a href="#">周冬雨</a></div>
+    <div><a href="#">张馨予</a></div>
+    <div><a href="#">郭富城</a></div>
+    <div><a href="#">黄轩</a></div>
+    <div><a href="#">吴昕</a></div>
+    <div><a href="#">张若君</a></div>
+    <div><a href="#">李辉</a></div>
+    <div><a href="#">郭雪芙</a></div>
+    <div><a href="#">周一彤</a></div>
+    <div><a href="#">何超仪</a></div>
+    <div><a href="#">毛林林</a></div>
+    <div><a href="#">皮肤</a></div>
+    <div><a href="#">防晒</a></div>
+    <div><a href="#">修护</a></div>
+    <div><a href="#">短发</a></div>
+    <div><a href="#">眼霜</a></div>
+    <div><a href="#">舒缓</a></div>
+    <div><a href="#">敏感肌肤</a></div>
+    <div><a href="#">锻炼</a></div>
+    <div><a href="#">美白</a></div>
+    <div><a href="#">舒淇</a></div>
+    <div><a href="#">资生堂</a></div>
+    <div><a href="#">身材</a></div>
+    <div><a href="#">敏感肌</a></div>
+    <div><a href="#">修护</a></div>
+    <div><a href="#">赵又延</a></div>
+    <div><a href="#">干燥</a></div>
+    <div><a href="#">同款</a></div>
+    <div><a href="#">植物医生</a></div>
+    <div><a href="#">补水</a></div>
+    <div><a href="#">美白产品</a></div>
+    <div><a href="#">初春</a></div>
+    <div><a href="#">精华液</a></div>
+    <div><a href="#">常见的</a></div>
+    <div><a href="#">短发</a></div>
+    <div><a href="#">密集</a></div>
+    <div><a href="#">美甲</a></div>
+    <div><a href="#">草木绿</a></div>
+    <div><a href="#">三生三世十里桃花</a></div>
+    <div><a href="#">问题</a></div>
+    <div><a href="#">卷腹</a></div>
+    <div><a href="#">肤白貌美</a></div>
+    <div><a href="#">眼妆</a></div>
+    <div><a href="#">新品上市</a></div>
+    <div><a href="#">臻白净透修护精华霜</a></div>
+    <div><a href="#">丰润宝石水凝精华乳</a></div>
+    <div><a href="#">兰芝</a></div>
+    <div><a href="#">春天来了</a></div>
+</div>
+
+
+
+<div id="bottom_bian">
+    <div class="bottom_bian_1">热门小编:</div>
+    <div><a href="#">MM逗</a></div>
+    <div><a href="#">flynn</a></div>
+    <div><a href="#">小七</a></div>
+    <div><a href="#">ina</a></div>
+    <div><a href="#">Ann</a></div>
+    <div><a href="#">杨宜乐</a></div>
+    <div><a href="#">Lu Xingliang</a></div>
+    <div><a href="#">十又木主</a></div>
+    <div><a href="#">基德拉贡</a></div>
+    <div><a href="#">津津</a></div>
+</div>
+<!--底部导航-->
+<ul id="bottom">
+
+    <li>
+        <ul>
+            <li><img src="images/b01_03.jpg"/></li>
+            <li>
+                <ul class="bottom_ul_1">
+                    <div><a href="#">YOKA时尚网</a></div>
+                    <div><a href="#"><b>官方微信</b></a></div>
+                    <div></div>
+                    <div><a href="">扫一扫立即关注</a></div>
+                </ul>
+            </li>
+            <li class="img"><img src="images/weixinx.jpg"/></li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li><img src="images/b02_03.jpg"/></li>
+            <li>
+                <ul>
+                    <div><a href="#">YOKA时尚网</a></div>
+                    <div><a href="#"><b>官方微信</b></a></div>
+                    <div></div>
+                    <div><a href="">扫一扫立即关注</a></div>
+                </ul>
+            </li>
+            <li class="img"><img src="images/weibo.png"/></li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li><img src="images/b03_03.jpg"/></li>
+            <li>
+                <ul  id="dibuxianshi">
+                    <div class="bbb1">
+                        <a href="#"><b>服饰美容</b></a>
+                        <ul></ul>
+                    </div>
+
+                    <div class="bbb2"><a href="#"><b>肤君</b></a><ul></ul></div>
+
+                    <div class="bbb3"><a href="#"><b>HOT男人</b></a><ul></ul></div>
+
+                    <div>扫一扫立即关注</div>
+                </ul>
+            </li>
+            <li id="img">
+                <img class="active" src="images/FuMei.png"/>
+                <img src="images/FuJun.png"/>
+                <img src="images/hot.png"/>
+            </li>
+        </ul>
+    </li>
+
+
+</ul>
+<ul id="footer">
+    <li><img src="images/meirong/footer_logo.png"/></li>
+    <li class="footer_1">
+        <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">合作伙伴</a></li>
+            <li><a href="#">招聘信息</a></li>
+            <li><a href="#">网站地图</a></li>
+            <li><a href="#">反馈信息</a></li>
+            <li><a href="#">法律声明</a></li>
+        </ul>
+    </li>
+</ul>
+
+
+
+
+<ul id="footer_dibu">
+    <li>
+        <ul>
+            <div>地址:北京市朝阳区光华路9号3号楼时尚大厦9层</div>
+            <div>>邮编:100020</div>
+            <div>总机:(8610)65873333</div>
+        </ul>
+    </li>
+    <li>
+        <ul>
+            <div>京ICP证070512号&nbsp;京ICP备09064614号</div>
+            <div>北京市公安局朝阳分局备案编号:11010502002098</div>
+            <div>信息网络传播视听节目许可证0110426号</div>
+            <div>广播电视节目制作经营许可证(京)字第1017号</div>
+        </ul>
+    </li>
+    <li>
+        <ul>
+            <div>Copyright&nbsp;©&nbsp;2006-2017 Yoka.com,All rights reserved. </div>
+            <div>北京凯明风尚网络技术有限公司版权所有</div>
+        </ul>
+    </li>
+</ul>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/shouye.js"></script>
+<script src="js/user_login.js"></script>
+</body>
+</html>
